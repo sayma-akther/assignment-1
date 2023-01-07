@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
+   
 }
 
 /* banner styles start */
@@ -17,57 +18,69 @@
   width: 50%;
   text-align: right;
   color: #ffff;
+  justify-content: center;
   align-items: center;
-  padding-left: 130px;
-  padding-top: 40px;
+  padding-left: 360px;
+  padding-top: 140px;
+}
+.banner-title h1{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
 }
 
-.banner-title h1{
-  font-size: 14px;
-}
 
 .banner-title p{
-  font-size: 6px;
-  color: rgba(233, 232, 232, .9);
+  padding: 15px 0;
+  font-size: small;
+  
 }
 .btn{
   border: none;
   border-radius: 3px;
-  padding: 5px 8px;
+  padding: 10px 15px;
   color: #005FAC;
-  font-size: 6px;
+  font-size: 16px; 
   font-weight: bold;
 }
 /* end banner styles */
 
 /* start person styles */
 .person{
-  font-size: xx-small;
+  
   display: flex;
-  margin: 10px 50px;
+  margin: 10px 100px;
   align-items: center;
-  gap: 30px;
+  gap: 10px;
 }
 .img-person{
   width: 50%;
 }
 .img-person img{
-  width: 130px;
-  height: 130px;
-  margin-right: 130px;
+  width: 350px;
+  height: 350px;
+  margin-right: 200px;
   background-color: rgba(0, 95, 172, .1);
   border-radius: 50%;
 }
 
 .persion-description{
-  /* padding: 200px 50px; */
-  width: 100px;
-  height: 100px;
-  font-size: small;
+  padding: 20px 0; 
+  height: 115px;
+  font-size: small; 
+  margin-bottom: 80px; 
+}
+.person-opinion{
+  width: 50%;
   margin-bottom: 40px;
 }
+.persion-description h3{
+  font-size: 40px;
+  line-height: 47px;
+
+}
 .persion-description p, ul{
-  font-size: 6px;
+  font-size: 14px;
   padding-top: 10px;
 }
 .persion-description ul{
@@ -79,34 +92,42 @@
 
 /* start plan styles */
 .plan{
-  margin: 20px 10px;
+  margin: 40px 70px;
   text-align: center;
   
+}
+.plan-title h1{
+  font-size: 40px;
 }
 .plan-items{
   display: flex;
-  font-size: xx-small;
-  padding: 20px;
+  /* font-size: ; */
+  padding: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
    
 }
 .plan-item-box{
-  width: 80px;
+  /* width: 80px; */
   height: auto;
   text-align: center;
   align-items: center;
+  padding: 30px;
   
 }
 .plan-item-box img{
-  width: 20px;
-  height: 20px;
+  width: 80px;
+  height: 80px;
 }
-.plan-item-box h4,p{
-  font-size: 6px;
-  padding: 2px;
+.plan-item-box h3,p{
+  font-size: px;
+  padding-top: 5px;
 } 
 
-.plan-item-box h3{
-  font-size: small;
+.plan-item-box h1{
+  font-size: 56px;
+  padding: 20px 0;
 }
 
 .plan-item-box p{
@@ -115,32 +136,32 @@
 
 /* gradient styles */
 .gradient{
-  margin: 10px 40px;
+  margin: 0 100px;
   background-image: url("../images/watch.png"),linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
   border: .5px solid rgba(0, 95, 172, .1);
-  border-radius: 3px;
+  border-radius: 4px;
   background-blend-mode: overlay;
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  padding: 10px 15px;
+  padding: 30px 30px;
   
 }
 
 .gradient h3{
-  font-size: small;
+  font-size: 40px;
 }
 
 /* footer style start  */
 footer{
   width: 100%;
-  margin-top: 25px; 
+  margin-top: 50px; 
   background-color: black;
 }
 
 .footer{
   display: flex;
-  padding: 40px 60px;
+  padding: 80px 80px;
   color: white;
   text-align: left;
   align-items: top;
@@ -148,12 +169,15 @@ footer{
 
 .future{
   width: 50%;
-  font-size: small;
-  
+    
+}
+.future h1{
+  font-size: 40px;
 }
 .future p{
-  padding: 3px 0;
-  font-size: 4px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  font-size: small;
   color: #999898;
 }
 .subscribe{
@@ -162,28 +186,34 @@ footer{
 }
 .social-icons{
   display: flex;
+  padding-top: 10px;
 }
 .social-icons img{
-  width: 10px;
+  width: 30px;
   height: 10;
-  padding-left: 4px;
-  padding-top: 4px;
+  padding-left: 10px;
+  padding-top: 10x;
+}
+.subscribe-items h1{
+  padding-bottom: 10px;
+  /* font-size: 40px; */
 }
 
 .subscribe-items{
   /* width: 60px; */
-  padding: 0 15px;
+  padding: 10px 15px;
   justify-content: center;
 }
 .subscribe-items input{
-  width: 90px;
-  font-size: 4px;
+  width: 300px;
+  font-size: small;
   border: none;
   border-radius: 3px;
-  padding: 5px 5px;
+  padding: 15px 15px;
 }
 .subscribe-items .btn-s{
   background: #005FAC;
   color: white;
-  font-size: 6px;
+  margin-top: 10px;
+  /* font-size: 6px; */
 }
